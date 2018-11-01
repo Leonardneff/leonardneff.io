@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import portrait from './images/leonard.jpg';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <figure className="image is-128x128">
+            <img src={portrait} className='is-rounded' alt='Leonard' />
+          </figure>
+          <h1>
+            Hi, I am Leonard. <span role='img' aria-label='wave'>👋</span> 
+          </h1>
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            I am a Front-End Web Developer, based in Cologne, Germany.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <br />
+          <a href='mailto:hi@leonardneff.com' className='button is-primary'>Leave me a message</a>
         </header>
       </div>
     );
