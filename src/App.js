@@ -17,7 +17,7 @@ class App extends Component {
             I am a Front-End Web Developer, based in Cologne, Germany.
           </p>
           <br />
-          <a href='mailto:hi@leonardneff.com' className='button is-primary'>Leave me a message</a>
+          <a href='mailto:hi@leonardneff.io' className='button is-primary'>Leave me a message</a>
         </header>
       </div>
     );
