@@ -23,3 +23,6 @@ yarn-error.log*
 # ide
 portfolio.sublime-project
 portfolio.sublime-workspace
+
+# archive
+/src/images/archive
